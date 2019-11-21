@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2019-11-19 22:18:48
- * @LastEditTime: 2019-11-19 23:25:18
+ * @LastEditTime: 2019-11-21 10:09:35
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /web_security/app/app.js
@@ -39,5 +39,5 @@ const CONFIG = {
 
 app.use(session(CONFIG, app))
 app.use(views(__dirname + '/views', {
-    extension: 'ejs'
+    extension: 'ejs',
 }))
